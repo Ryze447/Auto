@@ -1,1 +1,35 @@
-test
+
+Auto
+
+Attribute:
+- geschwindigkeit: int
+- tankstand: double
+- motorAn: boolean
+- aktuelleGang: int
+- kilometerstand: double
+- lichtAn: boolean
+- handbremseAktiv: boolean
+- klimaanlageAn: boolean
+- temperatur: double
+- fensterLinksOffen: boolean
+- fensterRechtsOffen: boolean
+
+Methoden:
++ Auto(pTankstand: double, pKilometerstand: double)
++ motorStarten(): void
++ motorStoppen(): void
++ beschleunigen(wert: int): void
++ bremsen(wert: int): void
++ gangWechseln(neuerGang: int): void
++ tanken(menge: double): void
++ lichtUmschalten(): void
++ handbremseZiehen(): void
++ handbremseLösen(): void
++ gibGeschwindigkeit(): int
++ gibTankstand(): double
++ gibKilometerstand(): double
++ klimaanlageEin(): void
++ klimaanlageAus(): void
++ temperaturEinstellen(neueTemperatur: double): void
++ fensterOeffnen(seite: String): void
++ fensterSchliessen(seite: String): void
